@@ -23,7 +23,7 @@ Docker image to compile proto files
 ############################################################
 # Proto image
 ############################################################
-FROM active-iot/docker-proto AS proto
+FROM activeiot/docker-proto AS proto
 
 ############################################################
 # Copy proto files to docker image
