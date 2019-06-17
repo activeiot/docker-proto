@@ -79,6 +79,7 @@ FROM alpine
 ################################################################################
 RUN set -ex && apk --update --no-cache add \
     curl \
+    make \
     libstdc++ \
     ca-certificates \
     && update-ca-certificates
