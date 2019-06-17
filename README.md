@@ -15,6 +15,7 @@ Docker image to compile proto files
 | github.com/gogo/protobuf/protoc-gen-gogoslick | v1.2.1 |
 | github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway | v1.9.1 |
 | github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger | v1.9.1 |
+| github.com/nilslice/protolock/cmd/protolock | v0.13.0 |
 | github.com/uber/prototool/cmd/prototool | v1.8.0 |
 
 ## Usage

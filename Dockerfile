@@ -56,6 +56,11 @@ RUN go get github.com/grpc-ecosystem/grpc-gateway/protoc-gen-grpc-gateway@v1.9.1
 RUN go get github.com/grpc-ecosystem/grpc-gateway/protoc-gen-swagger@v1.9.1
 
 ################################################################################
+# Protolock v0.13.0
+################################################################################
+RUN go get github.com/nilslice/protolock/cmd/protolock@v0.13.0
+
+################################################################################
 # Prototool v1.8.0
 ################################################################################
 RUN go get github.com/uber/prototool/cmd/prototool@v1.8.0
