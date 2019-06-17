@@ -11,6 +11,7 @@ FROM golang@sha256:cee6f4b901543e8e3f20da3a4f7caac6ea643fd5a46201c3c2387183a332d
 RUN set -ex && apk update && apk add --no-cache \
     git \
     curl \
+    make \
     ca-certificates \
     && update-ca-certificates
 
