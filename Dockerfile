@@ -80,6 +80,7 @@ FROM alpine
 RUN set -ex && apk --update --no-cache add \
     curl \
     make \
+    git \
     libstdc++ \
     ca-certificates \
     && update-ca-certificates
